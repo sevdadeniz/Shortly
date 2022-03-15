@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -19,7 +18,7 @@ class Skip1 extends StatelessWidget {
               title: "Detailed Records",
               body:
                   "Here you can write the description of the page, to explain someting...",
-              image: SvgPicture.asset("assets/images/shape.svg"),
+              image: SvgPicture.asset("assets/images/logo.svg"),
             ),
             PageViewModel(
               title: "Fully Customizable",
@@ -31,7 +30,6 @@ class Skip1 extends StatelessWidget {
           showNextButton: false,
           done: Text(
             "Skip",
-
           ),
           onDone: () => goToHome(context),
         ),
